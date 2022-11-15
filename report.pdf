@@ -1,0 +1,9 @@
+The tasks that were completed were the creation of all five levels with rising difficulty.
+There is a killzone under each map to kill the player when they fall off.(There is a bug where it only kills once.)
+You can progress through each level and when you complete level 5 you go back to level 1.
+There is not an implemented UI, Pause menu, start or stop game option or a failed game option.
+These were not implemented because of conflict in communication and timing within the group. 
+Tyler created collectables and a bomb object where when struct will send you back to the respawn point.
+The player is able to rotate the camera around the character but this DOES NOT move the characters front.
+Is this branch there is a moving object in level 5 however, object does not kill player. 
+Overall the project is alittle over 50% done as it is missing a UI, Pause Menu, 2 controls (5,6), and bug fixes with collisions.
