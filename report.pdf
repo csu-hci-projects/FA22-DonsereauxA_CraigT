@@ -6,4 +6,4 @@ These were not implemented because of conflict in communication and timing withi
 Tyler created collectables and a bomb object where when struct will send you back to the respawn point.
 The player is able to rotate the camera around the character but this DOES NOT move the characters front.
 Is this branch there is a moving object in level 5 however, object does not kill player. 
-Overall the project is alittle over 50% done as it is missing a UI, Pause Menu, 2 controls (5,6), and bug fixes with collisions.
+Overall the project is alittle over 50% done as it is missing a UI, Pause Menu, 2 controls (5,6), and bug fixes with collisions. 
