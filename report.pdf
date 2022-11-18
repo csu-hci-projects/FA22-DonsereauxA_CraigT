@@ -1,9 +1,12 @@
-The tasks that were completed were the creation of all five levels with rising difficulty.
-There is a killzone under each map to kill the player when they fall off.(There is a bug where it only kills once.)
-You can progress through each level and when you complete level 5 you go back to level 1.
-There is not an implemented UI, Pause menu, start or stop game option or a failed game option.
-These were not implemented because of conflict in communication and timing within the group. 
-Tyler created collectables and a bomb object where when struct will send you back to the respawn point.
-The player is able to rotate the camera around the character but this DOES NOT move the characters front.
-Is this branch there is a moving object in level 5 however, object does not kill player. 
-Overall the project is alittle over 50% done as it is missing a UI, Pause Menu, 2 controls (5,6), and bug fixes with collisions. 
+How I completed the the required tasks were pretty straightforward. I used the lecture provided by Mr. Ortega to implement the controls
+for WASD. For the rotation, I used the mouse and only allowed camera rotation in the X or Y axis because it seemed that allowing the Z
+axis would be to much movement. I used 0 to stop the ball with simple canceling of the torque values. For the levels, I was unable to 
+build them as I hoped, because the modeling tool was striped from this iteration somehow. However, I used cubes and turned them altered
+their sizes so that they would make good platforms with already implemented collisions. Showing a player winning or losing, I keep the lives
+in the top left corner and when the lives are 0 then the Lose widget will popup on the screen. Same goes for when the player completes level 5.
+There is also a health bar apart of the UI that is affected by the collectables in game. The collectables in game are the bomb, the health, and the coin
+which all have sounds associated with them when they collide with the player. Each collectable affects the player differently, either altering their health
+or adding to their score. If a player dies, by either taking too much damage or falling off of the map, they will respawn at the beginning of each level and
+have to start over. The Obstacles are pretyy simple, don't fall off, and don't run into too many bombs. The hardest part for me to code was getting the respawn
+to work with how I first started programming the game. So in turn I used a game instance and had to adjust how I destroyed the player and how I respawned them
+and how I started a new level. Took a lot of time, even having to use a debugger, but it was all worth it in the end and made the code much cleaner. 
